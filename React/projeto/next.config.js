@@ -1,7 +1,11 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    eslint: {
-        ignoreDuringBuilds: true,
+module.exports = {
+    redirects() {
+      return [
+        {
+          source: '/old-path',
+          destination: '/new-path',
+          permanent: true,
+        },
+      ];
     },
-}
-module.exports = nextConfig
+  };
