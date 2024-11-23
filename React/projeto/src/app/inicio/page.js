@@ -1,4 +1,4 @@
-import styles from "./inicio.module.css";
+import styles from "../inicio/inicio.module.css";
 
 export default function Inicio() {
     return(

@@ -1,10 +1,10 @@
-import styles from "./page.module.css";   
+import styles from "../app/page.module.css";   
 
 export default function Home() {
   return (
     <div>
-      <h1>Logo</h1>
-      <p className={styles.paragrafo}>Página da logo</p>
+      <h1>Olá</h1>
+      <p className={styles.paragrafo}>Seja bem vindo(a)!</p>
     </div>   
   );
 }

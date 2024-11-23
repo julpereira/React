@@ -8,7 +8,7 @@
 
 // export default Sobre;
 
-import styles from "./sobre.module.css";
+import styles from "../sobre/sobre.module.css";
 
 export default function Sobre() {
     return(
