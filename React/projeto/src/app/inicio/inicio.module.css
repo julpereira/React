@@ -1,14 +1,13 @@
 .paragrafo{
     color: #ff83a8;
     text-align: center;
-    height: 10%
 }
 .pageImage{
     width: 40%;
     margin-left: 30%;
 }
 
-.sobre{
+.inicio{
     color: #ff008c;
     font-weight: bold;
     text-align: center;
@@ -20,7 +19,7 @@
         margin-top: 1%;
         align-items: center;
     }
-    .sobre{
+    .inicio{
         margin-top: 40%;
     }
 }
